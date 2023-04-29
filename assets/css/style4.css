@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contacto{
+    width: 20%;
+    min-height: 100vh;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo.jpg);
+}
+
+.main img{
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.main span{
+    font-size: 45px;
+}
+
+.main p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px #E8EBE4 solid;
+}
+
+.perfil p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imgperfil{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+}
+
+.data2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.3em;
+}
+
+.data2 img{
+    transition: 1s ease;
+}
+
+.data2 img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.img-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    opacity: 0.9;
+}
+
+.button{
+    color: white;
+    padding: 15px 60px;
+    background-color: #A491D2;
+    text-decoration: none;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 1px #E8EBE4 solid;
+    
+}
